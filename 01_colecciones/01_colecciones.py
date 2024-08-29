@@ -1,0 +1,25 @@
+print()
+print(">>>Colecciones")
+print()
+
+print(">1- una lista y varias operaciones")
+fruits = []
+fruits.append("Kiwi")
+fruits.append("Barry")
+fruits.append("Melon")
+print("Lista fruits: ", fruits)
+fruits.sort()
+print("Lista fruits - ordenada: ", fruits)
+print("Lista fruits - pop(): ", fruits.pop())
+print("Lista fruits: ", fruits)
+fruits.insert(0,"Apple")
+print("Lista fruits - insert(0): ", fruits)
+fruits.insert(1,"Strawberry")
+print("Lista fruits - insert(1): ", fruits)
+print("Lista fruits - pop(1): ", fruits.pop(1))
+print("Lista fruits: ", fruits)
+print("Lista fruits - remove('Apple'): ", fruits.remove("Apple"))
+print("Lista fruits: ", fruits)
+
+print()
+
